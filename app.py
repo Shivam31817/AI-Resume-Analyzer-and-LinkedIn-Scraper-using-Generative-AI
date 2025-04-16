@@ -15,7 +15,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 import warnings
+import streamlit as st
 warnings.filterwarnings('ignore')
+st.title("Hello from Streamlit")
+st.write("This is not Flask, it's Streamlit!")
 
 
 def streamlit_config():
